@@ -148,16 +148,24 @@
   grid-template-rows: 1fr;
 }
 .first1{
+  width: 100vm;
+  position: relative;
   grid-area: 1/1/2/2;
 }
 .first2{
+  width: 100vm;
+  position: relative;
   grid-area: 1/2/2/3;
 }
 .first3{
+  width: 100vm;
+  position: relative;
   margin-top: -24px;
   grid-area: 2/1/3/2;
 }
 .first4{
+  width: 100vm;
+  position: relative;
   margin-top: -24px;
   grid-area: 2/2/3/3;
 }
@@ -166,15 +174,15 @@
 }
 .overHead{
   position: absolute;
-  top: 1850px;
-  left: 200px;
+  top: 150px;
+  left: 180px;
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
 }
 .OverIcon{
   position: absolute;
-  top: 1950px;
+  top: 250px;
   left: 300px;
   font-size: 70px;
   color: #ffffff;
@@ -183,7 +191,7 @@
 .overText{
   font-family: sans-serif;
   position: absolute;
-  top: 1870px;
+  top: 170px;
   left: 40px;
   font-size: 24px;
   text-align: center;
@@ -195,10 +203,10 @@
   filter: brightness(0.5);
 }
 .first1:hover .overHead{
-  top: 1770px;
+  top: 70px;
 }
 .first1:hover .OverIcon{
-  top: 2000px;
+  top: 300px;
 }
 .first1:hover .overText{
   animation-name: show;
@@ -216,16 +224,16 @@
 
 .overHead2{
   position: absolute;
-  top: 1850px;
-  right: 200px;
+  top: 150px;
+  left: 200px;
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
 }
 .OverIcon2{
   position: absolute;
-  top: 1950px;
-  right: 300px;
+  top: 250px;
+  left: 300px;
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
@@ -233,7 +241,7 @@
 .overText2{
   font-family: sans-serif;
   position: absolute;
-  top: 1870px;
+  top: 170px;
   right: 40px;
   font-size: 24px;
   text-align: center;
@@ -245,10 +253,10 @@
   filter: brightness(0.5);
 }
 .first2:hover .overHead2{
-  top: 1770px;
+  top: 70px;
 }
 .first2:hover .OverIcon2{
-  top: 2000px;
+  top: 300px;
 }
 .first2:hover .overText2{
   animation-name: show;
@@ -257,7 +265,7 @@
 }
 .overHead3{
   position: absolute;
-  top: 2420px;
+  top: 150px;
   left: 200px;
   font-size: 70px;
   color: #ffffff;
@@ -265,7 +273,7 @@
 }
 .OverIcon3{
   position: absolute;
-  top: 2520px;
+  top: 250px;
   left: 300px;
   font-size: 70px;
   color: #ffffff;
@@ -274,7 +282,7 @@
 .overText3{
   font-family: sans-serif;
   position: absolute;
-  top: 2440px;
+  top: 170px;
   left: 40px;
   font-size: 24px;
   text-align: center;
@@ -286,10 +294,10 @@
   filter: brightness(0.5);
 }
 .first3:hover .overHead3{
-  top: 2340px;
+  top: 70px;
 }
 .first3:hover .OverIcon3{
-  top: 2570px;
+  top: 300px;
 }
 .first3:hover .overText3{
   animation-name: show;
@@ -300,16 +308,16 @@
 
 .overHead4{
   position: absolute;
-  top: 2420px;
-  right: 200px;
+  top: 150px;
+  left: 250px;
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
 }
 .OverIcon4{
   position: absolute;
-  top: 2520px;
-  right: 300px;
+  top: 250px;
+  left: 350px;
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
@@ -317,7 +325,7 @@
 .overText4{
   font-family: sans-serif;
   position: absolute;
-  top: 2440px;
+  top: 170px;
   right: 40px;
   font-size: 24px;
   text-align: center;
@@ -329,10 +337,10 @@
   filter: brightness(0.5);
 }
 .first4:hover .overHead4{
-  top: 2340px;
+  top: 70px;
 }
 .first4:hover .OverIcon4{
-  top: 2570px;
+  top: 300px;
 }
 .first4:hover .overText4{
   animation-name: show;
