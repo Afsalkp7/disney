@@ -270,6 +270,7 @@
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
+  
 }
 .OverIcon3{
   position: absolute;
@@ -278,6 +279,7 @@
   font-size: 70px;
   color: #ffffff;
   transition: top ease 0.5s;
+  
 }
 .overText3{
   font-family: sans-serif;
@@ -289,6 +291,7 @@
   color: #ffffff;
   opacity: 0;
   transition: top ease 0.5s;
+  
 }
 .first3:hover img{
   filter: brightness(0.5);
